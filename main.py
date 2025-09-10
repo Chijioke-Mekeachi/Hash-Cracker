@@ -156,14 +156,19 @@ def main():
       
   if hash_Lenght == 32:
     hash_type = 1
+    print("Using md5")
   elif hash_Lenght == 40:
     hash_type = 2
+    print("Using sha224")
   elif hash_Lenght == 56:
     hash_type = 3
+    print("Using sha256")
   elif hash_Lenght == 64:
     hash_type = 4
+    print("Using sha384")
   elif hash_Lenght == 96:
     hash_type = 5
+    print("Using sha512")
   elif hash_Lenght == 128:
     hash_type = 6
   else:
